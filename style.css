@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* General Styles */
+body {
+  background-color: rgba(0, 0, 0, 0.852);
+  font-family: 'Bebas Neue', sans-serif;
+  margin-top: 0;
+  
+  
+}
+.logo{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 1em; 
+}
+/* Set styles for footer */
+footer {
+background-color: #0f0f0f;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+/* Set styles for container within footer */
+footer .container {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+
+
+
+/* Change color of Instagram icon on hover */
+footer a:hover i {
+color: #e4405f;
+}
+footer .logo {
+display: flex;
+flex-wrap: wrap;
+}
+
+/* Set styles for logo image */
+footer .logo img {
+max-width: 100%;
+max-height: 30px; /* Adjust this value as needed */
+}
+.logo{
+  position: relative;
+  padding-top: 1em;
+  text-align: center;
+}
+.price{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: #0f0f0f;
+}
+.nav{
+  
+  text-align: center;
+  
+}
+.Homebutn{
+    padding: 10px;
+  }
+  .socialbutn{
+    padding: 10px;
+  }
+ .Homebutn:hover{
+    color: #ff0000;
+  }
+  .socialbutn:hover{
+    color: #ff0000;
+  }
+
+.m{
+  text-align: center;
+  background-color: #202020;
+  width: 100%;
+  color: #ffffff;
+  font-family:'Raleway';
+  padding: 0em;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  margin-top: 50px;
+  padding: 65px;
+}
+
+/* Form Styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.containerForm {
+  display: flex;
+  justify-content:center;
+}
+.children1Form img{
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+  width: 300px;
+}
+.children1 img{
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+  width: 300px;
+}
+.children2 img{
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+  width: 300px;
+}
+.children3 img{
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+  width: 300px;
+}
+.children4 img{
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.children1,
+.children3 {
+  margin-right: 20px;
+}
+.children1:hover {
+  opacity: 90%;
+}
+.children2 :hover {
+  opacity: 90%;
+}
+.children4 :hover {
+  opacity: 90%;
+}
+.children3 :hover {
+  opacity: 90%;
+}
+.children2,
+.children4 {
+  margin-left: 20px;
+}
+
+.button {
+  text-decoration: none;
+  visibility: hidden;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff00;
+  border: 1px solid #cccccc00;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  display: flex;
+  background-color: #4f4f50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #000000;
+  text-align: center;
+}
+
+.error {
+  color: #ff0000;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+label[for="size"] {
+  display: block;
+  margin-bottom: 5px;
+}
+
+select#size {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(39, 39, 39, 0.852);
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4d4c4c;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #313131;
+}
+
+
+
+
+/*slider*/
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set height and width of slider */
+.slider {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Set height and width of slides container */
+/* Set height and width of slides container */
+.slides {
+  height: 100%;
+  width: 300%;
+  display: flex;
+}
+
+/* Set width of each slide */
+.slides img {
+  height: 100%;
+  width: calc(100% / 3);
+  
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+/* Set opacity of first slide to 1 */
+.slides img:first-child {
+  opacity: 1;
+}
+
+/* Set animation for auto-slide */
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  33.33% {
+    opacity: 1;
+  }
+  66.66% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Start auto-slide animation */
+.slides {
+  animation: slide 6s infinite;
+}
+
+
+/* Set animation for auto-slide */
+@keyframes slide {
+  
+}
+
+/* Start auto-slide animation */
+.slides {
+  animation: slide 30s infinite;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .container {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.children1 {
+  text-align: center;
+  grid-area: 1 / 3 / 2 / 4; }
+.children2 { 
+  text-align: center;
+  grid-area: 2 / 3 / 3 / 4; }
+.children3 { 
+  text-align: center;
+  grid-area: 3 / 3 / 4 / 4; }
+.children4 { 
+  text-align: center;
+  grid-area: 4 / 3 / 5 / 4; }
+
+
+  
+  
+  .containerForm {
+    display: flex;
+    justify-content:center;
+  }
+  .children1Form img{
+    flex-basis: calc(50% - 20px);
+    margin-top:40px;
+    margin-bottom: 20px;
+    width: 150px;
+  }
+  .main{
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0f0f0f;
+  }
+  .Homebutn{
+    padding: 10px;
+  }
+  .socialbutn{
+    padding: 10px;
+  }
+  .children img {
+    width: 100%;
+  }
+   .Homebutn:hover{
+    color: #ff0000;
+  }
+  .socialbutn:hover{
+    color: #ff0000;
+  }
+  .logo{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 1em; 
+  }
+  /* Set styles for footer */
+footer {
+  background-color: #020202;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Set styles for container within footer */
+footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Set styles for text within container */
+footer p {
+  margin: 0;
+  padding: 0 0px;
+}
+
+/* Set styles for Instagram icon */
+footer a i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.2s;
+}
+
+/* Change color of Instagram icon on hover */
+footer a:hover i {
+  color: #e4405f;
+}
+footer .logo {
+ display: flex;
+ justify-content: center;
+}
+
+/* Set styles for logo image */
+footer .logo img {
+  max-width: 100%;
+  max-height: 30px; /* Adjust this value as needed */
+}
+}

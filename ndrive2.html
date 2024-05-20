@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SBY7WQD1TY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SBY7WQD1TY');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NightDriveCollection</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function validateForm() {
+          var firstName = document.forms["orderFormND2"]["firstName"].value;
+          var lastName = document.forms["orderFormND2"]["lastName"].value;
+          var email = document.forms["orderFormND2"]["email"].value;
+          var phoneNumber = document.forms["orderFormND2"]["phoneNumber"].value;
+          var homeAddress = document.forms["orderFormND2"]["homeAddress"].value;
+    
+          if (firstName == "" || lastName == "" || email == "" || phoneNumber == "" || homeAddress == "") {
+            alert("Please fill in all required fields.");
+            return false;
+          }
+    
+          var phoneRegex = /^\d{8}$/;
+          if (!phoneNumber.match(phoneRegex)) {
+            alert("Please enter a valid phone number with 8 digits.");
+            return false;
+          }
+    
+          return true;
+        }
+      </script>
+    
+</head>
+<body>
+  <h1 class="m">PRE-ORDER THE BEST CAR ENTHUSIAST TUNISIAN BRAND</h1>
+  <div class="logo">
+    <img src="/webimg/logobight drive.png" alt="">
+  </div>
+
+  <nav class="nav nav-tabs flex-column nav">
+   <a class="Homebutn" href="/index.html" aria-current="page">Home</a>
+   <a class="socialbutn" href="https://www.instagram.com/id_graphicxx/">Social</a>
+  </nav>
+  <div class="containerForm">
+    <div class="children1Form">
+      <img src="/webimg/Ndrive2_1000x1000-front.png" class="children" alt="">
+      <img src="/webimg/Ndrive2_1000x1000.png" class="children" alt="">
+    </div>
+  </div>
+  <div class="price"><p>price : 55dt without shipping</p></div>
+    <form name="orderFormND2" onsubmit="return validateForm()" method="post" netlify>
+        <label for="size">Size: *</label>
+        <select id="size" name="size">
+          <option value="s">S</option>
+          <option value="m">M</option>
+          <option value="l">L</option>
+        </select>
+        
+        <label for="firstName">First Name: *</label>
+        <input type="text" id="firstName" name="firstName">
+        <br>
+        <label for="lastName">Last Name: *</label>
+        <input type="text" id="lastName" name="lastName">
+        <br>
+        <label for="email">Email: *</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="phoneNumber">Phone Number: *</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" pattern="\d{8}">
+        <br>
+        <label for="City">City</label>
+        <select id="size" name="city">
+          <option value="Ariana">Ariana</option>
+          <option value="Béja">Béja</option>
+          <option value="Ben Arous">Ben Arous</option>
+          <option value="Bizerte">Bizerte</option>
+          <option value="Gabes">Gabes</option>
+          <option value="Gafsa">Gafsa</option>
+          <option value="Jendouba">Jendouba</option>
+          <option value="Kairouan">Kairouan</option>
+          <option value="Kasserine">Kasserine</option>
+          <option value="Kebili">Kebili</option>
+          <option value="La Manouba">La Manouba</option>
+          <option value="Le Kef">Le Kef</option>
+          <option value="Mahdia">Mahdia</option>
+          <option value="Médenine">Médenine</option>
+          <option value="Monastir">Monastir</option>
+          <option value="Nabeul">Nabeul</option>
+          <option value="Sfax">Sfax</option>
+          <option value="Sidi Bouzid">Sidi Bouzid</option>
+          <option value="Siliana">Siliana</option>
+          <option value="Sousse">Sousse</option>
+          <option value="Tataouine">Tataouine</option>
+          <option value="Tozeur">Tozeur</option>
+          <option value="Tunis">Tunis</option>
+          <option value="Zaghouan">Zaghouan</option>
+        </select>
+        <label for="homeAddress">Home Address: *</label>
+        <textarea id="homeAddress" name="homeAddress"></textarea>
+        <br>
+        <label for="msgBox">Message:</label>
+        <textarea id="msgBox" name="msgBox"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    
+      
+      <footer>
+        <div class="container">
+          <div class="logo">
+            
+            <!-- Replace this with your logo image or code -->
+            <a href="https://www.instagram.com/id_graphicxx/"><img src="/webimg/logoidgfx.png" alt="Your Logo"></a>
+          
+        </div>
+          
+        </div>
+      </footer>
+      
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+<script>
+VANTA.FOG({
+  el: "body",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  highlightColor: 0xffffff,
+  midtoneColor: 0x313131,
+  lowlightColor: 0xffffff,
+  blurFactor: 0.35,
+  speed: 2.60,
+  zoom: 0.80
+})
+</script>
+</body>
+</html>
